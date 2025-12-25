@@ -37,9 +37,9 @@ xkb_symbols "rvnku" {
     key <AC04> { [        Cyrillic_i,        Cyrillic_I,Cyrillic_shorti, Cyrillic_SHORTI ] };
     key <AC05> { [        Cyrillic_u,        Cyrillic_U,            at ] };
     key <AC06> { [       Cyrillic_er,       Cyrillic_ER,     backslash ] };
-    key <AC07> { [       Cyrillic_es,       Cyrillic_ES,          plus,                4 ] };
-    key <AC08> { [       Cyrillic_te,       Cyrillic_TE,         minus,                5 ] };
-    key <AC09> { [       Cyrillic_en,       Cyrillic_EN,      asterisk,                6 ] };
+    key <AC07> { [       Cyrillic_en,       Cyrillic_EN,          plus,                4 ] };
+    key <AC08> { [       Cyrillic_es,       Cyrillic_ES,         minus,                5 ] };
+    key <AC09> { [       Cyrillic_te,       Cyrillic_TE,      asterisk,                6 ] };
     key <AC10> { [       Cyrillic_el,       Cyrillic_EL,         slash,                0 ] };
     key <AC11> { [      Cyrillic_sha,      Cyrillic_SHA,Cyrillic_shcha,   Cyrillic_SHCHA ] };
 
