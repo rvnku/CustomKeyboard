@@ -1,0 +1,58 @@
+partial alphanumeric_keys
+xkb_symbols "rvnku" {
+
+    name[Group1]= "English (US, rvnku)";
+
+    key <TLDE> { [      grave, asciitilde ] };
+    key <AE01> { [          1,     exclam ] };
+    key <AE02> { [          2,         at ] };
+    key <AE03> { [          3, numbersign ] };
+    key <AE04> { [          4,     dollar ] };
+    key <AE05> { [          5,    percent ] };
+    key <AE06> { [          6,asciicircum ] };
+    key <AE07> { [          7,  ampersand ] };
+    key <AE08> { [          8,   asterisk ] };
+    key <AE09> { [          9,  parenleft ] };
+    key <AE10> { [          0, parenright ] };
+    key <AE11> { [      minus, underscore ] };
+    key <AE12> { [      equal,       plus ] };
+
+    key <AD01> { [  semicolon,   NoSymbol,         colon ] };
+    key <AD02> { [      comma,      U00AB,          less ] };
+    key <AD03> { [     period,      U00BB,       greater ] };
+    key <AD04> { [          p,          P,         U20BD ] };
+    key <AD05> { [          y,          Y,        dollar ] };
+    key <AD06> { [          f,          F,      NoSymbol ] };
+    key <AD07> { [          g,          G,        exclam,                1 ] };
+    key <AD08> { [          c,          C,         equal,                2 ] };
+    key <AD09> { [          r,          R,      question,                3 ] };
+    key <AD10> { [          k,          K,    underscore,           endash ] };
+    key <AD11> { [ apostrophe,   quotedbl,     ampersand,           emdash ] };
+    key <AD12> { [        bar,   NoSymbol,           bar,           degree ] };
+    key <BKSL> { [  backslash,        bar,      NoSymbol ] };
+
+    key <AC01> { [          a,          A,     braceleft ] };
+    key <AC02> { [          o,          O,   bracketleft ] };
+    key <AC03> { [          e,          E,  bracketright ] };
+    key <AC04> { [          i,          I,    braceright ] };
+    key <AC05> { [          u,          U,            at ] };
+    key <AC06> { [          d,          D,     backslash ] };
+    key <AC07> { [          h,          H,          plus,                4 ] };
+    key <AC08> { [          t,          T,         minus,                5 ] };
+    key <AC09> { [          n,          N,      asterisk,                6 ] };
+    key <AC10> { [          s,          S,         slash,                0 ] };
+    key <AC11> { [          z,          Z,      NoSymbol ] };
+
+    key <AB01> { [  backslash,   NoSymbol,         grave ] };
+    key <AB02> { [          q,          Q,     parenleft ] };
+    key <AB03> { [          x,          X,    parenright ] };
+    key <AB04> { [          v,          V,    asciitilde ] };
+    key <AB05> { [          j,          J,      NoSymbol ] };
+    key <AB06> { [          b,          B,       percent ] };
+    key <AB07> { [          m,          M,      NoSymbol,                7 ] };
+    key <AB08> { [          w,          W,    numbersign,                8 ] };
+    key <AB09> { [          l,          L,   asciicircum,                9 ] };
+    key <AB10> { [      slash, numerosign,      NoSymbol,       numerosign ] };
+
+    include "level3(ralt_switch)"
+};
